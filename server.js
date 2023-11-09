@@ -18,6 +18,16 @@ app.get('/traits', (req, res) => {
     console.log('GET traits');
     res.sendFile(path.join(__dirname, '/public/traits.html'));
 })
+
+app.get('/items', (req, res) => {
+    console.log('GET traits');
+    res.sendFile(path.join(__dirname, '/public/items.html'));
+})
+
+app.get('/browse', (req, res) => {
+    console.log('GET traits');
+    res.sendFile(path.join(__dirname, '/public/browse.html'));
+})
 //api routes
 
 //listening in...

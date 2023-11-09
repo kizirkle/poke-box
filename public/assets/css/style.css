@@ -1,0 +1,32 @@
+/* colors */
+
+:root{
+    --bg: #fff;
+    --txt: #fff;
+    --htxt: #fff;
+}
+
+header{
+    background-image: url("https://cdn.discordapp.com/attachments/551452864615153665/1172287407010349098/image.png?ex=655fc4b9&is=654d4fb9&hm=39ab0acebf6f7f0f21b1a5eb6698281c367581c66ada0a52ad777e4b392afc31&");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    color: var(--htxt);
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.homemain{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homebtn{
+    
+    height: 15vh;
+    width: 90vw;
+    font-size: 40px;
+    margin: 5vh;
+}
