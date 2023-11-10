@@ -4,6 +4,10 @@
     --bg: #fff;
     --txt: #fff;
     --htxt: #fff;
+    --homebtn: #286b92;
+    --homebtnhover: #5590b3;
+    --homebtnactive: #12425e;
+    --color1: #000000;
 }
 
 header{
@@ -24,9 +28,25 @@ header{
 }
 
 .homebtn{
-    
+    background-color: var(--homebtn);
     height: 15vh;
     width: 90vw;
     font-size: 40px;
     margin: 5vh;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: var(--color1);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: var(--txt);
+    text-decoration: none;
+}
+
+.homebtn:hover{
+    background-color: var(--homebtnhover);
+}
+
+.homebtn:active{
+    background-color: var(--homebtnactive);
 }
